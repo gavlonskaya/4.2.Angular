@@ -1,0 +1,22 @@
+<main>
+    <h3>Ароматы&nbsp;&mdash;&nbsp;Black Opium</h3>
+
+    <section class="shop">
+      <template id="icon-temp">
+        <div class="icon">
+          <div class="icon-img">
+            <img class="perfume-img" src="{{card.img}}"/>
+          </div>
+          <div class="perfume-info">
+            <div class="title">{{card.title}}</div>
+            <div class="section">{{card.section}}</div>
+            <div class="price">{{card.price}}</div>
+            <div class="button">
+              <button class="detail">{{card.detail}}</button>
+              <button class="buy"(click)="addToCart()" *ngIf = "!card.buy">Купить</button>
+            </div>
+          </div>
+        </div>
+      </template>
+    </section>
+  </main>
