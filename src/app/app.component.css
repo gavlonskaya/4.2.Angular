@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    width: 100%;
+    margin:0;
+  }
+  
+.png {
+    text-align: center;
+    margin: 40pt 0pt 40pt 0pt;
+  }
